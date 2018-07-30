@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Song Display</title>
+
+    <style>
+      button.first {
+        let img_1= document.createElement('img_1');
+
+        img_1.src =
+        "https://upload.wikimedia.org/wikipedia/en/2/2a/JamesPleasedToMeetYou.jpg";
+        img_1.height = 150;
+        img_1.width = 150;
+
+        output_node.appendChild(img_1)
+      }
+
+      button.second {
+        let img_2= document.createElement('img_2');
+
+        img_2.src =
+        "https://upload.wikimedia.org/wikipedia/en/1/17/Hooverphonic-Blue_Wonder_Power_Milk.jpg";
+        img_2.height = 150;
+        img_2.width = 150;
+      }
+
+      button.third {
+        let img_3= document.createElement('img_3');
+
+        img_3.src=
+        "https://upload.wikimedia.org/wikipedia/en/6/68/Oh_Land_%28album%29.png";
+        img_3.height = 150;
+        img_3.width = 150;
+      }
+
+      h1 {
+        font-size: 1.25em;
+        font-weight: bold;
+      }
+
+      span#counter {
+        font-style: italic;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Click the button!</h1>
+
+    <button id="press_me">Press Me!</button>
+
+    <div>You've pressed the button <span id="info">0</span> times.</div>
+
+    <script language="javascript">
+      let songs = first {
+          title: "Getting Away with It (All Messed Up)",
+          artist: "James",
+          album: "Pleased to Meet You",
+          year: 2001,
+          art: "https://upload.wikimedia.org/wikipedia/en/2/2a/JamesPleasedToMeetYou.jpg"
+        };
+        second {
+          title: "Renaissance Affair",
+          artist: "Hooverphonic",
+          album: "Blue Wonder Power Milk",
+          year: 1998,
+          art: "https://upload.wikimedia.org/wikipedia/en/1/17/Hooverphonic-Blue_Wonder_Power_Milk.jpg"
+        };
+        third {
+          title: "White Nights",
+          artist: "Oh Land",
+          album: "Oh Land",
+          year: 2011,
+          art: "https://upload.wikimedia.org/wikipedia/en/6/68/Oh_Land_%28album%29.png"
+        };
+      };
+          img_1 = songs.first,
+          counter_display = document.getElementById('songs.first'),
+          button          = document.getElementById('img_1');
+
+          img_2 = songs.second,
+          counter_display = document.getElementById('songs.second'),
+          button = document.getElementById('img_2');
+
+          img_3 = songs.third,
+          counter_display = document.getElementById('songs.third'),
+          button= document.getElementById('img_3');
+      });
+    </script>
+  </body>
+</html>
